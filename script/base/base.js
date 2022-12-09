@@ -1,6 +1,14 @@
 // use strice mode
     'use strict';
 
+// Default value 
+
+    // value for textspeed function
+        // Value of t
+        const t = 0;
+        // Speed is sett to 30 as default
+        const speedOfType = 30; 
+
     // API url for bioread 
         const urlBio = 'https://bionic-reading1.p.rapidapi.com/convert'
 
@@ -12,9 +20,7 @@
 let kent = {
     firstName: 'kent Erik',
     lastName: 'Hole',
-    fullName: kent.firstName + ' ' + kent.lastName, 
     birthYear: 1989,
-    age: year - kent.birthYear,
     mail: 'kent.erik.hole@outlook.com', 
 
     project: {
