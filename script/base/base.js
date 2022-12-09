@@ -1,6 +1,9 @@
 // use strice mode
     'use strict';
 
+    // API url for bioread 
+        const urlBio = 'https://bionic-reading1.p.rapidapi.com/convert'
+
 // Time 
     const now = new Date();
     let year = now.getFullYear(); 
@@ -13,6 +16,57 @@ let kent = {
     birthYear: 1989,
     age: year - kent.birthYear,
     mail: 'kent.erik.hole@outlook.com', 
+
+    project: {
+        noroff: {
+            html:{
+                name: 'test',
+                website: 'index.html', 
+                xd: 'linke',
+            },
+            js: {
+                name: 'test',
+                website: 'index.html',
+                xd: 'link',
+            },
+            designe: {
+                name: 'test',
+                website: 'test',
+                xd: 'link', 
+            },
+
+            eXsam: {
+                name: 'test',
+                wedsite: 'test',
+                xd: 'link',
+            }
+        },
+        bootcamp: {
+            spaceX: {
+                name: 'spaceapi',
+                wedsite: 'index.html',
+                xd: 'test',
+            },
+            [2]: {
+                name: 'brilleland',
+                wedsite: 'index.html',
+                xd: 'test',
+            }
+        },
+
+        myproject: {
+            [1]: {
+                name: 'site',
+                website: 'project',
+                xd: 'linke',
+            },
+            [2]: {
+                name: 'site',
+                website: 'project',
+                xd: 'info',
+            }
+        }
+    },
 
     course: {
         udemy: {
@@ -48,10 +102,4 @@ let kent = {
         // const loaderTXT = document.querySelector('#loader__content--text');
 
 
-console.log(typeof(kent.birthYear))
-console.log(typeof(year))
 
-console.log(year - kent.birthYear)
-console.log(typeof(kent.age));
-console.log(kent.age)
-console.log(kent.fullName);
